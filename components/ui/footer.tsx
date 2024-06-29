@@ -12,7 +12,7 @@ export default function Footer() {
   }, []);
 
   return (
-    <footer className=" h-full relative min-h-screen">
+    <footer className=" h-full relative max-h-[40%]">
       {/* Bg */}
       <div className="absolute inset-0 bg-black -z-10" aria-hidden="true" />
 
